@@ -36,8 +36,6 @@ The flag is at the URL `/page/edit/4`:
 
 The page 4 (`/page/4`) is `Forbidden`, and it says:
 
-```
-You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
-```
+> You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
 
 The other pages, except the first ones and the newly created page, return `Not Found`.
