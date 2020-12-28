@@ -14,7 +14,7 @@ By inspecting the page, we can see that the header has a `<style>` element with 
 body { background-image: url("background.png"); }
 ```
 
-The flag is in the url (/background.png).
+The flag is at `/background.png`:
 
 ```
 ^FLAG^009e59d511c6f84de174ff02c49493269ae2dcfa52281901875872facf53715f$FLAG$
@@ -24,9 +24,9 @@ The flag is in the url (/background.png).
 
 #### Flag 2
 
-By noticing that when I created a new page, the new URL had a integer at the end, I had to look and see what I could find if I followed the number from 0 to the new page number.
+By noticing that when I created a new page, the new URL had an integer at the end, I had to look and see what I could find if I followed the number from 0 to the new page number.
 
-The flag is at the URL `/page/edit/4`:
+The flag is at `/page/edit/4`:
 
 ```
 ^FLAG^b07436d8757b3b3fad10ffc96072f136dfdf06c477549720143789ab6b0b034b$FLAG$
@@ -34,7 +34,7 @@ The flag is at the URL `/page/edit/4`:
 
 #### Flag 3
 
-The page 4 (`/page/4`) is `Forbidden`, and it says:
+`/page/4` is `Forbidden`, and it says:
 
 > You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
 
